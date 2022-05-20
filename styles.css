@@ -1,0 +1,107 @@
+body {
+    background-color: #FFB6C1;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.jumbotron {
+    background-color: #e6576d;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+}
+#title {
+    text-align: center;
+}
+#picture_1_img {
+    height: 25%;
+    width: 25%;
+
+}
+
+#oatmeal {
+    background-color: #e6576d;
+    font-size: 2rem;
+    color: #FFB6C1;
+}
+
+#cake {
+    background-color: #e6576d;
+    font-size: 2rem;
+    color: #FFB6C1;
+}
+
+#Home_Button {
+    Background-color: #e6576d;
+}
+
+#cheesecake {
+    background-color: #e6576d;
+    font-size: 2rem;
+    color: #FFB6C1;
+}
+
+#container_1 {
+    background-color: #e6576d;
+    font-size: 2rem;
+    color: #fff;
+    move: down
+}
+
+#picture_2_img {
+    height: 30%;
+    width: 25%;
+    float: right;
+
+}
+
+#picture_4_img {
+    height: 40%;
+    width: 35%;
+    float: right;
+}
+
+#picture_3_img {
+    height: 25%;
+    width: 20%;
+    float: left;
+}
+
+#container_2 {
+    background-color: #e6576d;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 20%;
+}
+
+#Home_Button_1 {
+    Background-color: #e6576d;
+}
+
+#picture_5_img {
+    height: 40%;
+    width: 40%;
+}
+
+#picture_6_img {
+    height: 20%;
+    width: 40%;
+    float: right;
+}
+
+#container_3 {
+    background-color: #e6576d;
+    font-size: 2rem;
+    color: #fff;
+} 
+
+#cookie {
+    
+    background-color: #e6576d;
+    font-size: 2rem;
+    color: #FFB6C1;
+}

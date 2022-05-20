@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Strawbery Recipes</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 id= "title"> Strawberry Recipes </h1>
+
+        </div>
+        <div class="list-group">
+            <div id="liveAlertPlaceholder"></div>
+            <a href="index.html" id = "liveAlertBtn" class="btn btn-primary btn-lg">Home</a>
+
+        <div  id = "container_1" class="container">
+              </a>
+  <a href="oatmeal.html" id = "oatmeal" >Strawberry Cheesecake Ice Cream </a>
+  <a href="cheesecake.html" id = "cake" class="list-group-item list-group-item-action">Max and Ruby Strawberry Cake</a>
+  <a href="Icecream.html"  id = "cookie"class="list-group-item list-group-item-action">Strawberry Cookies </a>
+</div>
+        <div  id = "container_3" class="container">
+            <p> Do you want yummy recipes without the life story behind it? Click one of our great recipes to achieve that!</p>
+
+
+
+
+
+                <h3>Do you like strawberries?</h3>
+
+                <button class="correct">Yes!</button>
+                <button class="incorrect"> No</button>
+
+                <p id = "feedback1" ></p>
+</div>
+
+<script>
+
+                //When correct answer is clicked change color to green
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = 'green';
+                    document.querySelector('#feedback1').innerHTML = "Best opinion ever"
+                });
+
+                 let incorrect = document.querySelector('.incorrect');
+                incorrect.addEventListener('click', function() {
+                    incorrect.style.backgroundColor = 'red';
+                    document.querySelector('#feedback1').innerHTML = "Your opinion is incorrect"
+                });
+
+
+</script>
+
+    </body>
+</html>
